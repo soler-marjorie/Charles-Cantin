@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "name": "site-charles-cantin",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "node-sass src/scss/main.scss public/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
