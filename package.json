@@ -8,6 +8,7 @@
   "name": "site-charles-cantin",
   "version": "1.0.0",
   "main": ".eleventy.js",
+  
   "scripts": {
     "dev": "node-sass src/scss/main.scss public/css/style.css --watch"
   },

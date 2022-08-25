@@ -1,7 +1,57 @@
-#LogoImg{
-    width: 200px;
+header{
+    display: flex;
 
-    img{
-        max-width: 100%;
+    nav, .style, .style2{
+        width: 33%;
+        margin: auto;
     }
+
+    div#navbarNav.collapse{
+        flex-direction: row-reverse;
+    }
+
+    .style div#LogoImg{
+        width: 250px;
+        margin: auto;
+
+        img{
+            max-width: 100%;
+            border-radius: 140px;
+        }
+    }
+
+    .style2 ul{
+        list-style-type: none;
+
+        li {
+            font-size: 2rem;
+            margin-left: 7%;
+
+            a > i.bi-instagram{
+                color: #da5296;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    header{
+        nav, .style, .style2{
+            width: auto;
+        }
+
+        .navbar-toggler{
+            position: top;
+            margin:auto;
+        }
+
+        .style div#LogoImg{
+            width: 150px;
+        }
+    } 
+    
+    
+    
 }
