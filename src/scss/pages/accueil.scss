@@ -1,0 +1,45 @@
+main.accueil{
+    width: 100%;
+    height: 100%;
+    background-image: url('C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/src/img/Accueil-fond.jpg');
+    
+    
+    div.container{
+        display : flex;
+        height: 100%;
+        text-align: center;
+        align-items : center;
+        justify-content : center;
+
+        div.texte h1, h2{
+            font-size: 4rem;
+        }
+
+        hr{
+            color: #cccbcb;
+            opacity: inherit;
+            margin: auto;
+            margin-top: 2rem;
+            padding: 0%;
+            width: 20rem;
+            height: 2rem;
+        }
+        
+    }    
+}
+
+@media screen and (max-width: 600px){
+
+    main.accueil{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position-x: 60%;
+        div.container{
+            div.texte h1, h2{
+                font-size:3rem;
+            }
+        }
+    }
+    
+    
+}
