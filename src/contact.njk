@@ -1,0 +1,39 @@
+--- 
+layout: layout.njk
+---
+
+<main class="contact">
+
+    <div class="contactForm block">
+        <form class="contactForm form" name="contact" method="POST" data-netlify="true">
+            <div class="contactForm style">
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                    <div class="col">
+                        <label for="exampleFormControlInput1">Nom</label>
+                        <input type="text" class="form-control" placeholder="Nom ">
+                    </div>
+                    <div class="col">
+                        <label for="exampleFormControlInput1">Prénom</label>
+                        <input type="text" class="form-control" placeholder="Prénom">
+                    </div>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">adresse email</label>
+                    <input type="email" class="form-control" placeholder="nom@exemple.com">
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form4Example3">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Ecrivez votre message..."></textarea>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Envoyer</button>
+            </div> 
+        </form>
+    </div>
+</main>
