@@ -1,4 +1,15 @@
 ---
 label: tarifs seul
 hide_body: true
-fields: []
+fields:
+- name: image_portrait
+  type: file
+  config:
+    maxSize: 64
+  label: image portrait
+  default: src/img/justemoi.jpg
+- name: texte_tarifs_seul
+  type: text
+  config:
+    required: false
+  label: texte tarifs seul
