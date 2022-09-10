@@ -4,9 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: tarifs
-  label: tarifs
+- type: directory
+  path: src/posts
+  label: posts
+  create: all
+  match: "**/*"
 upload_dir: img
 public_path: src/img
 front_matter_path: ''
