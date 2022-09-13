@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: src/posts
   label: posts
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: src/img
 public_path: public/img
