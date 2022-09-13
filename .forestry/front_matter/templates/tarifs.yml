@@ -31,3 +31,5 @@ fields:
     schema:
       format: markdown
   label: description
+pages:
+- src/posts/tarifsJusteMoi.html
