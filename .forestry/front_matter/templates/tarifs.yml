@@ -33,5 +33,7 @@ fields:
   label: description
 pages:
 - src/tarifs/famille.md
+- src/tarifs/ilEtaitUneFois.md
 - src/tarifs/justeMoi.md
+- src/tarifs/monBébé.md
 - src/tarifs/pourDeux.md
