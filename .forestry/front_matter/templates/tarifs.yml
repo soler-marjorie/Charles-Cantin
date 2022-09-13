@@ -1,6 +1,6 @@
 ---
 label: tarifs
-hide_body: true
+hide_body: false
 fields:
 - name: img
   type: file
