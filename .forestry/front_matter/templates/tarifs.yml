@@ -32,4 +32,4 @@ fields:
       format: markdown
   label: description
 pages:
-- src/posts/Justemoi.md
+- src/tarifs/Justemoi.md
