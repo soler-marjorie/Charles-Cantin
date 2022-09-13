@@ -33,3 +33,4 @@ fields:
   label: description
 pages:
 - src/tarifs/Justemoi.md
+- src/tarifs/pourDeux.md
