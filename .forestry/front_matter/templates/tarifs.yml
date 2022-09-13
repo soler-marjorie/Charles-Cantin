@@ -34,6 +34,7 @@ fields:
 pages:
 - src/tarifs/famille.md
 - src/tarifs/ilEtaitUneFois.md
+- src/tarifs/immortaliseEvénement.md
 - src/tarifs/justeMoi.md
 - src/tarifs/monBébé.md
 - src/tarifs/pourDeux.md
