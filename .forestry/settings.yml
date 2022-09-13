@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: src/posts
-  label: posts
+  path: src/tarifs
+  label: tarifs
   create: documents
   match: "**/*"
 upload_dir: src/img
