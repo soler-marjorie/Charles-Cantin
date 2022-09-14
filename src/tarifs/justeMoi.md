@@ -12,13 +12,12 @@ description: "Séance pour une personne, \nen extérieur \nou \nen studio."
 
 \-
 
-clap
-130 euros
+claque 130 euros
 
-Séance pour une personne, 
+Séance pour une personne,
 
-en extérieur 
+en extérieur
 
-ou 
+ous
 
 en studio.
