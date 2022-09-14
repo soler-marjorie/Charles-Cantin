@@ -1,36 +1,17 @@
 ---
 label: tarifs
-hide_body: true
+hide_body: false
 fields:
-- name: img
-  type: file
-  config:
-    maxSize: 64
-  label: img
 - name: nom_du_tarif
   type: text
   config:
     required: false
   label: nom du tarif
-- name: "-"
-  type: text
-  config:
-    required: false
-  label: "-"
 - name: prix
   type: text
   config:
     required: false
   label: prix
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: description
 pages:
 - src/tarifs/famille.md
 - src/tarifs/ilEtaitUneFois.md
