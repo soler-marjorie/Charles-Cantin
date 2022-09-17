@@ -2,13 +2,7 @@
 label: tarifs
 hide_body: false
 fields:
-- name: nom_du_tarif
-  type: text
-  config:
-    required: false
-  label: nom du tarif
-- name: prix
-  type: text
-  config:
-    required: false
-  label: prix
+- name: s
+  type: tag_list
+  default: []
+  label: s
