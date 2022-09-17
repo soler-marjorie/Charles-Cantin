@@ -2,16 +2,13 @@
 layout: layout.njk
 ---
 
-
-<!--
 <main class="mainGalerie">
     <section class="mainGalerie global">
         <article>
             <img src="C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/src/img/mariage.jpg" alt="">
             <div>
-                {% for photos in collections.photo %}
-                    <a href="{{ photos.url | url }}"></a>
-                {% endfor %}
+                {% include "C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/public/photo_galerie/Mariage/index.html"%}
+
             </div>
         </article>
 
@@ -46,4 +43,3 @@ layout: layout.njk
         </article>
     </section>
 </main>
--->
