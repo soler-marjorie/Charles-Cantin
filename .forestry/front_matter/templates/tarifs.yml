@@ -7,4 +7,5 @@ fields:
   config: {}
   label: galerie
 pages:
+- src/photo/Grossesse.md
 - src/photo/Mariage.md
