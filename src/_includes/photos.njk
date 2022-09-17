@@ -1,16 +1,15 @@
 --- 
-layout: layout.njk
+layout: layout:njk 
 ---
-
-
-
+{{ content | safe }}
+<!-- 
 <main class="mainGalerie">
     <section class="mainGalerie global">
         <article>
-            <img src="C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/src/img/mariage.jpg" alt="">
+            <img src="C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/src/img/mariage/mariage.jpg" alt="">
             <div>
-                {% for photos in collections.photo %}
-                    <a href="{{ photos.url | url }}"></a>
+                {% for galeries in collections.photo %}
+                    {% include "Mariage.md"%}
                 {% endfor %}
             </div>
         </article>
@@ -46,3 +45,4 @@ layout: layout.njk
         </article>
     </section>
 </main>
+-->
