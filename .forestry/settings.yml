@@ -9,7 +9,7 @@ sections:
   label: photos
   create: all
   match: "**/*"
-upload_dir: src/img
+upload_dir: src/photo
 public_path: public/img
 front_matter_path: ''
 use_front_matter_path: false
