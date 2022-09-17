@@ -8,6 +8,7 @@ fields:
   label: galerie
 pages:
 - src/photo/Baptême.md
+- src/photo/Couple.md
 - src/photo/Famille.md
 - src/photo/Grossesse.md
 - src/photo/Mariage.md
