@@ -8,8 +8,6 @@ mariage:
 galerie: []
 
 ---
-<<<<<<< HEAD
 
-=======
-![](src/img/mariage/wedding-g64a89dde0_1920.jpg)![](src/img/mariage/wedding-dress-1486260_960_720.jpg)
->>>>>>> d09536fca788267f8ee54b23b1804deb4926c025
+![](./src/../../img/mariage/wedding-dress-1486260_960_720.jpg)
+![](src/img/mariage/wedding-dress-1486260_960_720.jpg)
