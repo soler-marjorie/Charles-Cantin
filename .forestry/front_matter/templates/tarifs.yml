@@ -2,9 +2,9 @@
 label: tarifs
 hide_body: false
 fields:
-- name: mariage
+- name: galerie
   type: image_gallery
   config: {}
-  label: Mariage
+  label: galerie
 pages:
 - src/photo/Mariage.md
