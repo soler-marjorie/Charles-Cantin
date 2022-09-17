@@ -2,7 +2,7 @@
 label: tarifs
 hide_body: false
 fields:
-- name: s
-  type: tag_list
-  default: []
-  label: s
+- name: mariage
+  type: image_gallery
+  config: {}
+  label: Mariage
