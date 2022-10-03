@@ -33,3 +33,25 @@ main.tarifs{
         }
     }
 }
+
+@media screen and (max-width: 800px){
+    main.tarifs{
+        .tarifsSection{
+            .tarifsBlock{
+                margin-bottom: 10%;
+            }
+        }         
+    }
+}
+
+@media screen and (max-width: 600px){
+    main.tarifs{
+        .tarifsSection{
+            .tarifsBlock{
+                .sousBlock{
+                    margin-bottom: 6%;
+                }
+            }
+        }         
+    }
+}
