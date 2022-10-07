@@ -1,3 +1,5 @@
+//SCSS pour le header avec navigation
+
 header{
     display: flex;
 
@@ -49,6 +51,7 @@ header{
 
 }
 
+//responsive téléphone
 @media screen and (max-width: 600px){
 
     header{

@@ -1,3 +1,5 @@
+// SCSS page galeries
+
 .mainGalerie{
     width: 100%;
     margin-top: 5%;
@@ -71,6 +73,7 @@
     }
 }
 
+//responsive tablette
 @media screen and (max-width: 800px){
     .mainGalerie{
         .global{
@@ -104,6 +107,7 @@
     }
 }
 
+//responsive téléphone
 @media screen and (max-width: 600px){
 
     .mainGalerie{

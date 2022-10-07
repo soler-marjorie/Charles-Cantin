@@ -2,38 +2,54 @@
 layout: layout.njk
 ---
 
+<!-- Page pour le contact -->
+<!-- main de la page contact -->
+
 <main class="contact">
 
+    <!-- block englobant le formulaire -->
     <div class="contactForm block">
+
+        <!-- Formulaire -->
         <form class="contactForm form" name="contact" method="POST" data-netlify="true">
+
+            <!-- rassemblement des label imput etc... pour styliser -->
             <div class="contactForm style">
-                <!-- 2 column grid layout with text inputs for the first and last names -->
+
+                <!-- Deux colonnes grid layout avec des entrées de textes pour le nom et prénom -->
                 <div class="row">
+                    <!-- Entrée pour le nom -->
                     <div class="col">
                         <label for="myname">Nom</label>
                         <input type="text" class="form-control" placeholder="Nom" id="myname">
                     </div>
+
+                    <!-- Entrée pour le prénom -->
                     <div class="col">
                         <label for="myfirstname">Prénom</label>
                         <input type="text" class="form-control" placeholder="Prénom" id="myfirstname">
                     </div>
                 </div>
 
-                <!-- Email input -->
+                <!-- Entrée pour l'e-mail' -->
                 <div class="form-group">
                     <label for="adressmail">Adresse email</label>
                     <input type="email" class="form-control" placeholder="nom@exemple.com" id="adressmail">
                 </div>
 
-                <!-- Message input -->
+                <!-- Entrée pour le message -->
                 <div class="form-outline mb-4">
                     <label class="form-label" for="writemessage">Message</label>
                     <textarea class="form-control" id="message" rows="4" placeholder="Ecrivez votre message..." id="writemessage"></textarea>
                 </div>
 
-                <!-- Submit button -->
+                <!-- Bouton pour envoyer le formulaire -->
                 <button type="submit" class="btn btn-primary btn-block mb-4">Envoyer</button>
+
             </div> 
+
         </form>
+
     </div>
+    
 </main>

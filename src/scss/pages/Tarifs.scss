@@ -1,3 +1,5 @@
+//SCSS page tarifs et prestations
+
 main.tarifs{
     padding: 5%;
     text-align: center;
@@ -34,6 +36,7 @@ main.tarifs{
     }
 }
 
+//responsive tablette
 @media screen and (max-width: 800px){
     main.tarifs{
         .tarifsSection{
@@ -44,6 +47,7 @@ main.tarifs{
     }
 }
 
+//responsive téléphone
 @media screen and (max-width: 600px){
     main.tarifs{
         .tarifsSection{
