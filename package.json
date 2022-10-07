@@ -10,7 +10,9 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "dev": "npx @11ty/eleventy"
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "start": "eleventy --serve"
   },
   "author": "",
   "license": "ISC",
