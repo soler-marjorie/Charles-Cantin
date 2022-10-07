@@ -10,11 +10,20 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "start": "eleventy --serve"
+    "build": "npm run",
+    "watch": "npx node-sass src/scss/main.scss public/css/style.css --watch",
+    "serve": "eleventy --serve"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soler-marjorie/Charles-Cantin.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/soler-marjorie/Charles-Cantin/issues"
+  },
+  "homepage": "https://github.com/soler-marjorie/Charles-Cantin#readme",
   "description": ""
 }
