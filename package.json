@@ -10,6 +10,7 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "eleventy",
     "watch": "eleventy --watch",
     "start": "eleventy --serve"
