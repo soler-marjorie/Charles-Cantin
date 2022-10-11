@@ -100,7 +100,7 @@ footer {
 main.accueil {
   width: 100%;
   height: 100%;
-  background-image: url("_site/img/Accueil-fond.jpg"); }
+  background-image: url("/img/Accueil-fond.jpg"); }
   main.accueil div.container {
     display: flex;
     height: 100%;
@@ -164,7 +164,7 @@ main.accueil {
       width: 80%;
       margin: auto; }
       .mainGalerie .global .catégories .photos p {
-        background-image: url("C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/src/img/flower-g5dda48f56_1920.png");
+        background-image: url("/img/flower-g5dda48f56_1920.png");
         padding: 5%;
         display: grid;
         grid-template-columns: repeat(3, 2fr);
@@ -203,7 +203,7 @@ main.accueil {
 main.tarifs {
   padding: 5%;
   text-align: center;
-  background-image: url(C:/Users/marjorie/Desktop/eval-front-end-global/Sitecharlescantin/src/img/pink-g9ed7d6431_1920.png); }
+  background-image: url("/img/pink-g9ed7d6431_1920.png"); }
   main.tarifs .tarifsSection .tarifsBlock .sousBlock .blockImg {
     width: 200px;
     height: 200px;
@@ -234,7 +234,7 @@ main.tarifs {
 main.contact {
   width: 100%;
   height: 100%;
-  background-image: url("img/Accueil-fond.jpg"); }
+  background-image: url("/img/Accueil-fond.jpg"); }
   main.contact .block {
     height: 100%;
     width: 40%;
