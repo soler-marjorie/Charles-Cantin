@@ -100,7 +100,7 @@ footer {
 main.accueil {
   width: 100%;
   height: 100%;
-  background-image: url("src/img/Accueil-fond.jpg"); }
+  background-image: url("_site/img/Accueil-fond.jpg"); }
   main.accueil div.container {
     display: flex;
     height: 100%;
