@@ -1,11 +1,10 @@
 ---
 titre: Mariage
-
 output:
   html_document:
-    css: "css/style.css"
+    css: css/style.css
 ---
-
+![photo](/img/portrait/girl-g7e18a8527_1920.jpg)
 ![photo](/img/mariage/wedding-dress-1486260_960_720.jpg)
 ![photo](/img/mariage/wedding-gda8cfa9da_1920.jpg)
 ![photo](/img/mariage/wedding-g64a89dde0_1920.jpg)
