@@ -9,4 +9,4 @@ output:
 ![photo](/img/mariage/wedding-gda8cfa9da_1920.jpg)
 ![photo](/img/mariage/wedding-g64a89dde0_1920.jpg)
 ![photo](/img/mariage/bride-g6c8509b00_1920.jpg)
-![photo](/img/mariage/bride-gdab378ece_1920.jpg)![photo](/img/portrait/woman-gb8607dbab_1920.jpg)
+![photo](/img/mariage/bride-gdab378ece_1920.jpg)
